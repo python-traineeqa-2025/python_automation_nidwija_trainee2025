@@ -19,11 +19,3 @@ username.click()
 username.send_keys("test")
 time.sleep(6)
 driver.quit()
-"""
-xpath::
-
-//{tag}[@attribute='']
-eg: //div//input[@data-test='username']
-//div//input[contains(@data-test,'username')]
-
-"""
