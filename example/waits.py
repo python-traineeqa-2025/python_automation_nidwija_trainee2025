@@ -21,7 +21,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 # from selenium.webdriver.chrome.service import Service
 
-driver_path =r"D:\Users\nidwija.bhatta\Documents\PYTHON\python_automation_nidwija_trainee2025\bin\chromedriver.exe"
+driver_path = r"/bin/chromedriver.exe"
 
 
 ser = Service(driver_path)
