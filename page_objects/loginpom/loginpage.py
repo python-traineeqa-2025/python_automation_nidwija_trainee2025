@@ -1,8 +1,9 @@
 from selenium.webdriver.common.by import By
+from setup.basetest import BaseTest
 
 class LoginPage:
-    def __init__(self, driver):  # Accept driver from test class
-        self.driver = driver
+    def __init__(self,driver):  # Accept driver from test class
+        self.driver=driver
 
     def login(self, username, pwd):
         username_input = self.driver.find_element(By.ID, "user-name")

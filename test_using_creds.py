@@ -16,17 +16,16 @@ class TestLogs(BaseTest):
         logging.info("opened the site")
         title=self.driver.title
         logging.info("site opened. ")
-        list_cred = self.driver.find_elements(By.ID, 'login_credentials')
+        users_pwd=self.creds["users"]
+        logging.info(users_pwd)
 
-        login_cred_list = []
-        for i in list_cred:
-            logging.info(i.text)
-            login_cred_list.append(i.text)
-        logging.info(login_cred_list)
+        #loop for key value, sendkeys garda username is key pwd is value
+
 
         username_input=self.driver.find_element(By.ID, 'user-name')
         username_input.click()
-        username_input.send_keys(self.creds['standard_username'])
+        uname=self.creds['standard_username']
+        username_input.send_keys(uname )
         password_input=self.driver.find_element(By.ID, 'password')
         password_input.click()
         password_input.send_keys(self.creds['Password_for_all_users'])

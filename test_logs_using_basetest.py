@@ -1,6 +1,6 @@
 import logging
 import time
-
+from setup.basetest import BaseTest
 from setup.basetest import BaseTest
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -14,14 +14,14 @@ class TestLogs(BaseTest):
         logging.info("opened the site")
         title = self.driver.title
         logging.info("site opened. ")
-        list_cred = self.driver.find_elements(By.ID, 'login_credentials')
-
-        login_cred_list = []
-        for i in list_cred:
-            logging.info(i.text)
-            login_cred_list.append(i.text)
-            # i.click()
-        logging.info(login_cred_list)
+        # list_cred = self.driver.find_elements(By.ID, 'login_credentials')
+        #
+        # login_cred_list = []
+        # for i in list_cred:
+        #     logging.info(i.text)
+        #     login_cred_list.append(i.text)
+        #     # i.click()
+        # logging.info(login_cred_list)
 
         username_input = self.driver.find_element(By.ID, 'user-name')
         username_input.click()

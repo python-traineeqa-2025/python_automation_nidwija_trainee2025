@@ -1,9 +1,12 @@
 {
+
   "base_url": "https://www.saucedemo.com/",
   "standard_username": "standard_user",
   "problem_user": "problem_user",
   "performance_glitch": "performance_glitch",
   "error_user": "error_user",
   "visual_user": "visual_user",
-  "Password_for_all_users": "secret_sauce"
+  "Password_for_all_users": "secret_sauce",
+  "test_new_page": "testst",
+  "users": {"st": "pwd","st2": "pwd2"}
 }

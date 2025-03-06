@@ -10,12 +10,12 @@ logger = logging.getLogger(__name__)
 
 class TestLogs:
     def test_first(self):
-            # driver_path = r"D:\Users\nidwija.bhatta\Documents\PYTHON\python_automation_nidwija_trainee2025\bin\chromedriver.exe"
-            #
-            # ser = Service(driver_path)
-            # logging.info("set up driver")
-            # driver = webdriver.Chrome(service=ser)
-            driver=webdriver.Chrome()
+            driver_path = r"D:\Users\nidwija.bhatta\Documents\PYTHON\python_automation_nidwija_trainee2025\bin\chromedriver.exe"
+
+            ser = Service(driver_path)
+            logging.info("set up driver")
+            driver = webdriver.Chrome(service=ser)
+            # driver=webdriver.Chrome()
             driver.get("https://www.saucedemo.com/")
             logging.info("opened the site")
             title=driver.title
