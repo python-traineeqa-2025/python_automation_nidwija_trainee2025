@@ -1,18 +1,23 @@
-from selenium.webdriver.common.by import By
-from setup.basetest import BaseTest
 
-class LoginPage:
-    def __init__(self,driver):  # Accept driver from test class
+from page_objects.loginpom.loginpageprop import LoginPageProperties
+
+
+class LoginPage(LoginPageProperties):
+
+    def __init__(self,driver):
         self.driver=driver
+        # self.wait=WebDriverWait(self.driver,20)
+
+
 
     def login(self, username, pwd):
-        username_input = self.driver.find_element(By.ID, "user-name")
-        username_input.click()
-        username_input.send_keys(username)
+        uname= self.username_input
 
-        password_input = self.driver.find_element(By.ID, "password")
-        password_input.click()
-        password_input.send_keys(pwd)
-
-        submit_btn = self.driver.find_element(By.ID, "login-button")
-        submit_btn.click()
+        uname.click()
+        # self.wait.until()
+        uname.send_keys(username)
+        password=self.pwd_input
+        password.click()
+        password.send_keys(pwd)
+        submit=self.submit_button
+        submit.click()

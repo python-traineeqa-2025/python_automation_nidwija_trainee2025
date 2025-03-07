@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c729010-433e-49e1-be0c-7f2a10e3cc9f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/install/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/basetest.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup/basetest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_logs.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_logs.py" afterDir="false" />
+    <list default="true" id="3c729010-433e-49e1-be0c-7f2a10e3cc9f" name="Changes" comment="class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/loginpom/loginpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/loginpom/loginpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/steps.txt" beforeDir="false" afterPath="$PROJECT_DIR$/steps.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_login_pom.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_login_pom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_logs.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_logs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_logs_using_basetest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_logs_using_basetest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_logs_using_conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_logs_using_conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_using_creds.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_using_creds.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +35,12 @@
     &quot;assignee&quot;: &quot;NidwijaB&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/python-traineeqa-2025/python_automation_nidwija_trainee2025.git&quot;,
-    &quot;accountId&quot;: &quot;fb44e3b5-7a71-44e0-b294-8ea183995f88&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/python-traineeqa-2025/python_automation_nidwija_trainee2025.git",
+    "accountId": "6ce1e07a-b4b1-49cd-bf28-ba08eedf2407"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
@@ -49,11 +52,14 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests in test_login_pom.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_logs.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_logs_using_basetest.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_logs_using_conftest.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_using_creds.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_using_creds.py.executor&quot;: &quot;Debug&quot;,
     &quot;Python.basetest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conftest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.loginpage.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -68,15 +74,17 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\nidwija.bhatta\Documents\PYTHON\python_automation_nidwija_trainee2025\test_cases" />
+      <recent name="D:\Users\nidwija.bhatta\Documents\PYTHON\python_automation_nidwija_trainee2025\page_objects\loginpom" />
+      <recent name="D:\Users\nidwija.bhatta\Documents\PYTHON\python_automation_nidwija_trainee2025" />
+      <recent name="D:\Users\nidwija.bhatta\Documents\PYTHON\python_automation_nidwija_trainee2025\setup" />
       <recent name="C:\Users\user\Documents\PYTHONPROJECTS\python_automation_nidwija_trainee2025" />
-      <recent name="C:\Users\user\Documents\PYTHONPROJECTS\python_automation_nidwija_trainee2025\cred" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-PY-243.24978.54" />
-        <option value="bundled-python-sdk-91e3b7efe1d4-466328ff949b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.24978.54" />
+        <option value="bundled-python-sdk-fc1d50d2d915-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.24978.54" />
       </set>
     </attachedChunks>
   </component>
@@ -91,43 +99,51 @@
       <workItem from="1741201776164" duration="1885000" />
       <workItem from="1741237813105" duration="1057000" />
     </task>
+    <task id="LOCAL-00001" summary="class">
+      <option name="closed" value="true" />
+      <created>1741262397705</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741262397705</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="random files" />
+    <MESSAGE value="class" />
+    <option name="LAST_COMMIT_MESSAGE" value="class" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test_using_creds.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test_using_creds.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test_using_creds.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test_using_creds.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test_using_creds.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test_using_creds.py</url>
+          <url>file://$PROJECT_DIR$/test_cases/test_using_creds.py</url>
           <line>13</line>
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_cases/test_using_creds.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_cases/test_using_creds.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_cases/test_using_creds.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_cases/test_login_pom.py</url>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
