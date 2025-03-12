@@ -11,4 +11,6 @@ python -m virtualenv venv
 venv\Scripts\activate
 pip install -r install/requirements.txt
 
-then go to interpreter settings and
+then go to interpreter settings and set up the existing python and then select the python inside the venv you setup
+
+--html=reports/report.html --self-contained-html

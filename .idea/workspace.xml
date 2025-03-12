@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c729010-433e-49e1-be0c-7f2a10e3cc9f" name="Changes" comment="class">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_automation_nidwija_trainee2025.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_automation_nidwija_trainee2025.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/loginpom/loginpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/loginpom/loginpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/install/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/basetest.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup/basetest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/steps.txt" beforeDir="false" afterPath="$PROJECT_DIR$/steps.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_login_pom.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_login_pom.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_logs.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_logs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_logs_using_basetest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_logs_using_basetest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_logs_using_conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_logs_using_conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_using_creds.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_using_creds.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/python-traineeqa-2025/python_automation_nidwija_trainee2025.git",
-    "accountId": "6ce1e07a-b4b1-49cd-bf28-ba08eedf2407"
+    "accountId": "fb44e3b5-7a71-44e0-b294-8ea183995f88"
   }
 }]]></component>
   <component name="ProjectColorInfo">{
@@ -50,28 +50,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests in test_login_pom.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_logs.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_logs_using_basetest.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_logs_using_conftest.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_using_creds.py.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.basetest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conftest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.loginpage.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests in test_jeeve.py.executor": "Run",
+    "Python tests.Python tests in test_login_pom.py.executor": "Run",
+    "Python tests.Python tests in test_logs.py.executor": "Run",
+    "Python tests.Python tests in test_logs_using_basetest.py.executor": "Run",
+    "Python tests.Python tests in test_logs_using_conftest.py.executor": "Run",
+    "Python tests.Python tests in test_using_creds.py.executor": "Debug",
+    "Python tests.pytest in test_cases.executor": "Run",
+    "Python tests.pytest in test_login_pom.py.executor": "Run",
+    "Python.basetest.executor": "Run",
+    "Python.conftest.executor": "Run",
+    "Python.loginpage.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/user/Documents/PYTHONPROJECTS/python_automation_nidwija_trainee2025/test_cases/test_login_pom.py",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\nidwija.bhatta\Documents\PYTHON\python_automation_nidwija_trainee2025\test_cases" />
@@ -81,10 +85,32 @@
       <recent name="C:\Users\user\Documents\PYTHONPROJECTS\python_automation_nidwija_trainee2025" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="pytest in test_login_pom.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="python_automation_nidwija_trainee2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13 virtualenv at C:\Users\user\Documents\PYTHONPROJECTS\python_automation_nidwija_trainee2025\venv" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\user\Documents\PYTHONPROJECTS\python_automation_nidwija_trainee2025" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--html\u003dreports/report.html --self-contained-html --no-header --no-summary -q&quot;" />
+      <option name="_new_target" value="&quot;C:\\Users\\user\\Documents\\PYTHONPROJECTS\\python_automation_nidwija_trainee2025\\test_cases\\test_login_pom.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-fc1d50d2d915-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.24978.54" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-PY-243.24978.54" />
+        <option value="bundled-python-sdk-91e3b7efe1d4-466328ff949b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.24978.54" />
       </set>
     </attachedChunks>
   </component>
@@ -98,6 +124,7 @@
       <updated>1741201772453</updated>
       <workItem from="1741201776164" duration="1885000" />
       <workItem from="1741237813105" duration="1057000" />
+      <workItem from="1741749571526" duration="2592000" />
     </task>
     <task id="LOCAL-00001" summary="class">
       <option name="closed" value="true" />
@@ -150,6 +177,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_automation_nidwija_trainee2025$basetest.coverage" NAME="basetest Coverage Results" MODIFIED="1741202195097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/setup" />
-    <SUITE FILE_PATH="coverage/python_automation_nidwija_trainee2025$.coverage" NAME=" Coverage Results" MODIFIED="1741239040070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_automation_nidwija_trainee2025$pytest_in_test_login_pom_py.coverage" NAME="pytest in test_cases Coverage Results" MODIFIED="1741751673350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\user\Documents\PYTHONPROJECTS\python_automation_nidwija_trainee2025" />
+    <SUITE FILE_PATH="coverage/python_automation_nidwija_trainee2025$.coverage" NAME=" Coverage Results" MODIFIED="1741749884719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases" />
   </component>
 </project>

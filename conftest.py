@@ -1,19 +1,10 @@
+
+
 import pytest
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 
+def pytest_addoption(parser):
+    parser.addoption("--browser", action="store", default="chrome", help="Browser to run tests on")
 
-@pytest.fixture(scope="function")
-def driver():
-    driver_path = r"D:\Users\nidwija.bhatta\Documents\PYTHON\python_automation_nidwija_trainee2025\bin\chromedriver.exe"
-
-    ser = Service(driver_path)
-    driver = webdriver.Chrome(service=ser)
-    # driver = webdriver.Chrome()
-    driver.maximize_window()
-    driver.implicitly_wait(10)
-
-    yield driver  #this instance of webdriver will be used by the test
-
-    # Teardown
-    driver.quit()
+@pytest.fixture(scope="session")
+def browser(request):
+    return request.config.getoption("--browser")
