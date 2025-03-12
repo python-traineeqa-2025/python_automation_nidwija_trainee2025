@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c729010-433e-49e1-be0c-7f2a10e3cc9f" name="Changes" comment="action_chains and pytest_reports">
-      <change beforePath="$PROJECT_DIR$/test_cases/test_jeeve.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_jeeve.py" afterDir="false" />
+    <list default="true" id="3c729010-433e-49e1-be0c-7f2a10e3cc9f" name="Changes" comment="jeeveapp">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +117,7 @@
       <updated>1741201772453</updated>
       <workItem from="1741201776164" duration="1885000" />
       <workItem from="1741237813105" duration="1057000" />
-      <workItem from="1741749571526" duration="3167000" />
+      <workItem from="1741749571526" duration="4146000" />
     </task>
     <task id="LOCAL-00001" summary="class">
       <option name="closed" value="true" />
@@ -135,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741752306059</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="jeeveapp">
+      <option name="closed" value="true" />
+      <created>1741753106755</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741753106755</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +153,8 @@
     <MESSAGE value="random files" />
     <MESSAGE value="class" />
     <MESSAGE value="action_chains and pytest_reports" />
-    <option name="LAST_COMMIT_MESSAGE" value="action_chains and pytest_reports" />
+    <MESSAGE value="jeeveapp" />
+    <option name="LAST_COMMIT_MESSAGE" value="jeeveapp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -179,7 +188,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_automation_nidwija_trainee2025$basetest.coverage" NAME="basetest Coverage Results" MODIFIED="1741202195097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/setup" />
-    <SUITE FILE_PATH="coverage/python_automation_nidwija_trainee2025$pytest_in_test_login_pom_py.coverage" NAME="pytest in test_login_pom.py Coverage Results" MODIFIED="1741752199478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\user\Documents\PYTHONPROJECTS\python_automation_nidwija_trainee2025" />
-    <SUITE FILE_PATH="coverage/python_automation_nidwija_trainee2025$.coverage" NAME=" Coverage Results" MODIFIED="1741749884719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases" />
+    <SUITE FILE_PATH="coverage/python_automation_nidwija_trainee2025$pytest_in_test_login_pom_py.coverage" NAME="pytest in test_login_pom.py Coverage Results" MODIFIED="1741752864947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\user\Documents\PYTHONPROJECTS\python_automation_nidwija_trainee2025" />
+    <SUITE FILE_PATH="coverage/python_automation_nidwija_trainee2025$.coverage" NAME=" Coverage Results" MODIFIED="1741753051007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases" />
   </component>
 </project>
