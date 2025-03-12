@@ -3,7 +3,7 @@ import logging
 import time
 
 from selenium import webdriver
-from selenium.webdriver import ActionChains
+from selenium.webdriver import ActionChains, Keys
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 
@@ -19,6 +19,7 @@ class TestLogs(BaseTest):
         logging.info(title)
         hover_element=self.driver.find_element(By.XPATH, "//div[text()='My Account']")
         actions = ActionChains(self.driver)
+        # actions.key_down(Keys.)
         actions.move_to_element(hover_element).perform()
         logging.info("opened dropdown")
         login_btn=self.driver.find_element(By.XPATH, "//div[text()='Login']")
