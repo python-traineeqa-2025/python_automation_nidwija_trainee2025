@@ -43,10 +43,21 @@ class BaseTest:
     logger = logging.getLogger(__name__)
 
     @pytest.fixture(autouse=True, scope="class")
-    def setup(self, request):
+    def setup(self, request, chrome_options=None):
         """Automatically initializes WebDriver and credentials for tests."""
 
         driver_path = r"D:\Users\nidwija.bhatta\Documents\PYTHON\python_automation_nidwija_trainee2025\bin\chromedriver.exe"
+        chrome_options.add_experimental_option("prefs", {
+            "profile.default_content_setting_values.geolocation": 2,  # 1 = Allow, 2 = Block
+            "profile.default_content_setting_values.notifications": 2,  # 1 = Allow, 2 = Block
+            "profile.default_content_setting_values.media_stream_mic": 2,  # 1 = Allow, 2 = Block
+            "profile.default_content_setting_values.media_stream_camera": 2  # 1 = Allow, 2 = Block
+        })
+
+        chrome_options.add_argument("--headless")
+        #
+        # driver = webdriver.Chrome(options=chrome_options)
+
 
         ser = Service(driver_path)
         logging.info("set up driver")
